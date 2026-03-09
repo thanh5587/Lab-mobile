@@ -9,7 +9,7 @@ public class Lab1BActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Bài 1B - LinearLayout (XML)");
+        setTitle("Bài ut (XML)");
         setContentView(R.layout.activity_lab1b);
     }
 }
