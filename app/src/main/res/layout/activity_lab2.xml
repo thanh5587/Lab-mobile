@@ -13,7 +13,8 @@
         android:textAllCaps="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/margin_basex4"
-        android:textSize="@dimen/text_large" />
+        android:textSize="@dimen/text_large"
+        android:textColor="@android:color/darker_gray" />
 
     <TextView
         android:layout_marginTop="@dimen/margin_basex4"
@@ -61,25 +62,23 @@
         android:layout_alignParentRight="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin_base"
         android:text="@string/signup"
         android:id="@+id/btn_sign_up"
-        android:layout_marginTop="@dimen/margin_base"
-        android:layout_below="@+id/et_password"
-        android:layout_toLeftOf="@+id/btn_sign_in"
-        android:layout_marginRight="@dimen/margin_basex2" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_basex2"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/forgot_password"
-        android:id="@+id/tv_forgot_password"
-        android:textColor="@color/purple_500"
-        android:layout_marginTop="@dimen/margin_basex2"
-        android:layout_below="@+id/btn_sign_in"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/sign_in_facebook"
+        android:id="@+id/btn_sign_in_facebook"
+        android:layout_above="@+id/btn_sign_up"
+        android:layout_marginBottom="@dimen/margin_base"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
-

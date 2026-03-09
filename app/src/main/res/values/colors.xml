@@ -1,17 +1,15 @@
 <resources>
 
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
+    <color name="purple_500">#212121</color>
+    <color name="purple_700">#000000</color>
     <color name="white">#FFFFFF</color>
 
     <!-- Colors for Lab 1B -->
-    <color name="color0">#FF5733</color>
-    <color name="color1">#33FF57</color>
-    <color name="color2">#3357FF</color>
-    <color name="color3">#F3FF33</color>
-    <color name="color4">#FF33F6</color>
-    <color name="color5">#33FFF6</color>
-    <color name="color6">#FF8C33</color>
-    <color name="color7">#8C33FF</color>
+    <color name="black">#000000</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="pink">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="blue">#0000FF</color>
 
 </resources>
