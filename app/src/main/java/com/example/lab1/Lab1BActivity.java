@@ -10,6 +10,6 @@ public class Lab1BActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Bài ut (XML)");
-        setContentView(R.layout.activity_lab1b);
+        setContentView(R.layout.activity_lab2);
     }
 }
