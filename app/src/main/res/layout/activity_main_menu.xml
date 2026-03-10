@@ -20,14 +20,14 @@
         android:id="@+id/btn_1a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bài 1A - LinearLayout (Code)"
+        android:text="Bài 1A - LinearLayout "
         android:layout_margin="10dp"/>
 
     <Button
         android:id="@+id/btn_1b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bài 1B - LinearLayout (XML)"
+        android:text="Bài 1B - LinearLayout "
         android:layout_margin="10dp"/>
 
     <Button
